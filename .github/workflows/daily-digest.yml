@@ -3,7 +3,7 @@ name: Daily GitHub Activity Digest
 on:
   schedule:
     # Runs at 08:00 UTC every weekday (Monday-Friday)
-    - cron: '0 8 * * 1-5'
+    # - cron: '0 8 * * 1-5'
   workflow_dispatch:
     # Allows you to trigger the workflow manually for testing
 
